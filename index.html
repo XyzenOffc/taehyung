@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang Kim Taehyung</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #000;
+            background-image: url('your-gif-url-here.jpg'); /* Ganti dengan URL GIF */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.7); /* Memberikan efek gelap agar teks lebih mudah dibaca */
+            padding: 30px;
+            border-radius: 10px;
+            text-align: center;
+            width: 60%;
+            max-width: 800px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        button {
+            background-color: #1c87c9;
+            color: white;
+            padding: 15px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+
+        button:hover {
+            background-color: #145a85;
+        }
+
+        #videoContainer {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            justify-content: center;
+            align-items: center;
+        }
+
+        video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+<div class="overlay">
+    <h1>Tentang Kim Taehyung</h1>
+    <p>
+        Kim Taehyung, juga dikenal dengan nama panggungnya V, lahir pada 30 Desember 1995 di Daegu, Korea Selatan. 
+        Ia adalah vokalis utama dari boyband global yang sangat terkenal, BTS. Suara Taehyung yang dalam dan khas membuatnya menonjol, 
+        dengan kemampuan untuk menyampaikan berbagai emosi dalam setiap penampilannya.
+    </p>
+    <p>
+        Selain sebagai penyanyi, Taehyung juga berbakat dalam dunia akting. Pada tahun 2016, ia membintangi drama sejarah <em>Hwarang: The Poet Warrior Youth</em>. 
+        Lagu-lagu solonya seperti "Stigma", "Singularity", dan "Inner Child" menunjukkan kemampuan vokalnya yang luar biasa serta kreativitasnya sebagai seniman.
+    </p>
+    <p>
+        Taehyung juga dikenal memiliki ketertarikan pada seni fotografi dan fesyen, yang membuat kepribadiannya semakin menarik. 
+        Dengan penggemar dari seluruh dunia, yang dikenal sebagai ARMY, Taehyung terus menginspirasi jutaan orang dengan bakat, dedikasi, dan keasliannya.
+    </p>
+
+    <button onclick="showVideo()">Tonton Video</button>
+
+    <div id="videoContainer">
+        <video id="videoPlayer" autoplay>
+            <source src="your-video-url-here.mp4" type="video/mp4">
+            Browser Anda tidak mendukung tag video.
+        </video>
+    </div>
+</div>
+
+<script>
+    function showVideo() {
+        var video = document.getElementById('videoPlayer');
+        video.volume = 1.0; // Atur volume ke maksimum (0.0 - 1.0)
+        document.getElementById('videoContainer').style.display = 'flex';
+    }
+</script>
+
+</body>
+</html>
+
+b
+
+
+
+
